@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="title">
+            <i class="fa-regular fa-building"></i>
+            <span>Purple</span>
+            <span id="t2">Buzz</span>
+        </div>
+        <div class="headnames"><a href="./index.html">Home</a></div>
+        <div class="headnames"><a href="./about.html">About</a></div>
+        <div class="headnames"><a href="#">Work</a></div>
+        <div class="headnames"><a href="./pricing.html">Pricing</a></div>
+        <div class="headnames"><a href="./contact.html">Contact</a></div>
+        <div class="settings">
+            <div><i class="fa-regular fa-bell"></i></div>
+            <div class="headicons"><i class="fa-solid fa-gear"></i></div>
+            <div class="headicons"><i class="fa-regular fa-circle-user"></i></div>
+        </div>
+    </div>
+
+    <div id="work-banner" class="banner">
+        <div class="banner-center">
+            <div class="banner-content">
+                <h1 class="banner-title">Our Work</h1>
+                <h3 class="banner-subtitle">Elit, sed do eiusmod tempor incididunt</h3>
+
+                <p class="banner-text">
+                    Vector illustration
+                    <a href="http://freepik.com/" target="_blank">Freepik</a>.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Quis ipsum suspendisse ultrices gravida.
+                    Risus commodo viverra maecenas accumsan lacus.
+                </p>
+
+                <div class="banner-buttons">
+                    <button class="btn btn-outline">Learn More</button>
+                    <button class="btn btn-filled">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="work-section">
+
+
+        <div class="filter-wrapper">
+            <a href="#" class="filter-btn active" data-filter=".project">All</a>
+            <a href="#" class="filter-btn" data-filter=".business">Business</a>
+            <a href="#" class="filter-btn" data-filter=".marketing">Marketing</a>
+            <a href="#" class="filter-btn" data-filter=".social">Social Media</a>
+            <a href="#" class="filter-btn" data-filter=".graphic">Graphic</a>
+        </div>
+
+
+        <div class="projects">
+
+            <a href="3" class="project-card project marketing social business">
+                <div class="card">
+                    <img src="./assets/our-work-01.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Digital Marketing</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <span>Read more →</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="project-card project graphic social">
+                <div class="card">
+                    <img src="./assets/our-work-02.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Corporate Branding</h5>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        <span>Read more →</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="project-card project marketing graphic business">
+                <div class="card">
+                    <img src="./assets/our-work-03.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Leading Digital Solution</h5>
+                        <p>Duis aute irure dolor in reprehenderit.</p>
+                        <span>Read more →</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="project-card project social business">
+                <div class="card">
+                    <img src="./assets/our-work-04.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Smart Applications</h5>
+                        <p>Excepteur sint occaecat cupidatat non proident.</p>
+                        <span>Read more →</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="project-card project marketing">
+                <div class="card">
+                    <img src="./assets/our-work-05.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Corporate Stationary</h5>
+                        <p>Sunt in culpa qui officia deserunt mollit.</p>
+                        <span>Read more →</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="project-card project marketing graphic">
+                <div class="card">
+                    <img src="./assets/our-work-06.jpg" alt="">
+                    <div class="card-body">
+                        <h5>8 Financial Tips</h5>
+                        <p>Laboris nisi ut aliquip ex ea commodo.</p>
+                        <span>Read more →</span>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+
+        <div class="pagination">
+            <button class="page-btn dark">Previous</button>
+            <button class="page-btn light">1</button>
+            <button class="page-btn dark">2</button>
+            <button class="page-btn dark">Next</button>
+        </div>
+
+    </section>
+
+    <section class="feature-section">
+        <div class="feature-container">
+
+            <div class="feature-wrapper">
+
+
+                <div class="feature-text">
+                    <h3 class="feature-subtitle">Featured Work</h3>
+                    <h1 class="feature-title">Transform with us</h1>
+
+                    <p class="feature-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                        ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                    </p>
+
+                    <p class="feature-desc">
+                        Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
+                        viverra maecenas. Duis aute irure dolor in reprehenderit in voluptate velit
+                        esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                </div>
+
+
+                <div class="feature-gallery">
+
+                    <div class="gallery-row">
+                        <a href="./assets/feature-work-1-large.jpg" data-fslightbox="gallery">
+                            <img src="./assets/feature-work-1.jpg" alt="">
+                        </a>
+                        <a href="./assetsfeature-work-2-large.jpg" data-fslightbox="gallery">
+                            <img src="./assets/feature-work-2.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="gallery-row">
+                        <a href="./assets/feature-work-3-large.jpg" data-fslightbox="gallery">
+                            <img src="./assets/feature-work-3.jpg" alt="">
+                        </a>
+                        <a href="./assets/feature-work-4-large.jpg" data-fslightbox="gallery">
+                            <img src="./assets/feature-work-4.jpg" alt="">
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+
+        <div class="footer-main">
+            <div class="footer-col brand">
+                <a href="index.html" class="footer-logo">
+                    <i class="bx bx-buildings"></i>
+                    <span>Purple <strong>Buzz</strong></span>
+                </a>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut.
+                </p>
+
+                <ul class="social-links">
+                    <li><a href="#"><i class="bx bxl-facebook-square"></i></a></li>
+                    <li><a href="#"><i class="bx bxl-linkedin-square"></i></a></li>
+                    <li><a href="#"><i class="bx bxl-whatsapp-square"></i></a></li>
+                    <li><a href="#"><i class="bx bxl-flickr-square"></i></a></li>
+                    <li><a href="#"><i class="bx bxl-medium-square"></i></a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer-col">
+                <h3>Our Company</h3>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="./pricing.html">Price</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer-col">
+                <h3>Our Works</h3>
+                <ul>
+                    <li><a href="#">Branding</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Marketing</a></li>
+                    <li><a href="#">Social Media</a></li>
+                    <li><a href="#">Digital Solution</a></li>
+                    <li><a href="#">Graphic</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer-col">
+                <h3>For Client</h3>
+                <ul>
+                    <li><a href="tel:0100200340">📞 010-020-0340</a></li>
+                    <li><a href="mailto:info@company.com">✉️ info@company.com</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="footer-bottom">
+            <p>© 2026 Purple Buzz Company. All Rights Reserved.</p>
+            <p>Designed by <a href="#">Triharsha</a></p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
